@@ -1,0 +1,13 @@
+
+---
+- hosts: "droplets"
+
+  tasks:
+  - name: "Vamos dar echo"
+    copy: src=teste dest=/home/bruno/
+   
+   
+   
+   
+    #    shell: echo "teste" > /home/bruno/teste
+
